@@ -1,8 +1,9 @@
+@import url(https://fonts.googleapis.com/css?family=Lato);
+@import url(https://fonts.googleapis.com/css?family=Lato);
 @-ms-viewport {
   width: device-width;
   scale: 1;
 }
-
 @viewport {
   width: device-width;
   scale: 1;
@@ -31,20 +32,19 @@ body {
   text-align: center;
 }
 
-.icon-glasses-01 {
+.icon-shoe-01, .icon-glasses-01 {
+  color: #000000;
   font-size: 10em;
 }
 
-.icon-shoe-01 {
-  font-size: 10em;
-}
-
-.icon-shoe-01:hover {
+.icon-shoe-01:hover, .icon-glasses-01:hover {
   color: #aaaaaa;
   font-size: 12em;
 }
 
-.icon-glasses-01:hover {
+.title {
   color: #aaaaaa;
-  font-size: 12em;
+  text-transform: uppercase;
+  font-size: 3em;
+  font-family: "Lato", sans-serif;
 }
