@@ -1,0 +1,40 @@
+@viewport { width: device-width; scale: 1; }
+
+html {
+    box-sizing: border-box;  
+    
+  -moz-text-size-adjust: 100%;
+  -ms-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
+  text-size-adjust: 100%;
+}
+
+*, *::before, *::after {
+    box-sizing: inherit;
+}
+
+body {
+    margin: 0;
+}
+
+.iconset {
+    height: 100vh;
+    display: block;
+    background-image: url("../images/walking.jpg");
+    background-size: cover;
+    text-align: center;
+}
+
+.icon-shoe-01, .icon-glasses-01 {
+    color: $black;
+    font-size: 10em;
+    &:hover {
+    color: $grey;
+    font-size: 12em;
+    }
+}
+
+.title {
+    @include text($grey);
+    font-family: $lato;
+}
