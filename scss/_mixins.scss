@@ -1,43 +1,7 @@
-html {
-    box-sizing: border-box;  
-    
-  -moz-text-size-adjust: 100%;
-  -ms-text-size-adjust: 100%;
-  -webkit-text-size-adjust: 100%;
-  text-size-adjust: 100%;
+@mixin text($color){
+    color: $color;
+    text-transform: uppercase;
+    font-size: 3em;
 }
 
-*, *::before, *::after {
-    box-sizing: inherit;
-}
-
-body {
-    margin: 0;
-}
-
-
-.iconset {
-    height: 100vh;
-    display: block;
-    background-image: url(images/walking.jpg);
-    background-size: cover;
-    text-align: center;
-}
-
-.icon-glasses-01 {
-    font-size: 10em;
-}
-
-.icon-shoe-01 {
-    font-size: 10em;
-}
-
-.icon-shoe-01:hover {
-    color: darkgray;
-    font-size: 12em;
-}
-
-.icon-glasses-01:hover {
-    color: darkgray;
-    font-size: 12em;
-}
+@import url(https://fonts.googleapis.com/css?family=Lato);
